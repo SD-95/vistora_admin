@@ -1,0 +1,46 @@
+.superadmin-dashboard {
+  background: linear-gradient(to right, #f8f9fc, #e3eafc);
+  font-family: 'Poppins', sans-serif;
+  color: #343a40;
+}
+
+.super-star {
+  position: absolute;
+  top: -12px;
+  right: -16px;
+  color: #ffc107;
+  animation: popStar 1s ease-in-out infinite alternate;
+}
+
+@keyframes popStar {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2) rotate(10deg);
+  }
+}
+
+.super-admin-line {
+  height: 2px;
+  background-color: #ff6f61;
+  width: 0;
+  margin-top: 6px;
+  animation: expandLine 1s ease-out forwards;
+  animation-delay: 0.3s;
+  transform-origin: center;
+}
+
+@keyframes expandLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.super-admin-title {
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}

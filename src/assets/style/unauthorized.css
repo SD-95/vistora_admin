@@ -1,0 +1,48 @@
+.unauth-wrapper {
+  background: linear-gradient(135deg, #ffe1db, #fff5f2, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.unauth-content {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+}
+
+.unauth-content h1 {
+  font-size: 5rem;
+  color: #af281b;
+}
+
+.unauth-content h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+.unauth-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.unauth-content button {
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 111, 97, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .unauth-content {
+    padding: 2rem;
+  }
+
+  .unauth-content h1 {
+    font-size: 3.5rem;
+  }
+}

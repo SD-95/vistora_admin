@@ -1,0 +1,62 @@
+.custom-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Loader core */
+.wave-loader {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.wave-loader span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff6f61;
+  opacity: 0.6;
+  animation: wavePulse 1.6s ease-out infinite;
+  box-shadow: 0 0 30px rgba(255, 111, 97, 0.5);
+}
+
+/* Create ripple effect with delay */
+.wave-loader span:nth-child(2) {
+  animation-delay: 0.3s;
+  opacity: 0.4;
+}
+
+.wave-loader span:nth-child(3) {
+  animation-delay: 0.6s;
+  opacity: 0.2;
+}
+
+/* Animation keyframes */
+@keyframes wavePulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,49 @@
+.chat-bubble {
+  position: relative;
+  padding: 10px 15px;
+  max-width: 70%;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.chat-recipient {
+  background-color: #e0e0e0;
+  color: #000;
+  border-top-left-radius: 0;
+  margin-right: auto;
+}
+
+.chat-recipient::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-color: #e0e0e0;
+  border-right-color: #e0e0e0;
+  transform: rotate(162deg);
+}
+
+.chat-mine {
+  background-color: #ff6f61;
+  color: #fff;
+  border-top-right-radius: 0;
+  margin-left: auto;
+}
+
+.chat-mine::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: -10px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-color: #ff6f61;
+  border-left-color: #ff6f61;
+  transform: rotate(-20deg);
+}

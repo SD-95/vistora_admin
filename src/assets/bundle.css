@@ -1,0 +1,30 @@
+/* ------------------ THIRD-PARTY LIBRARIES ------------------ */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'animate.css';
+@import 'leaflet/dist/leaflet.css';
+@import 'react-step-progress-bar/styles.css';
+@import 'react-vertical-timeline-component/style.min.css';
+@import 'rsuite/dist/rsuite.min.css';
+@import 'suneditor/dist/css/suneditor.min.css';
+
+/* ------------------ GLOBAL BASE STYLES ------------------ */
+@import './style/loader.css';
+
+/* ------------------ LAYOUT STYLES ------------------ */
+@import './style/adminlayout.css';
+@import './style/header.css';
+@import './style/sidebar.css';
+@import './style/notificationbar.css';
+@import './style/footer.css';
+
+/* ------------------ PAGE-SPECIFIC STYLES ------------------ */
+@import './style/superadmin.css';
+@import './style/salesbyregionmap.css';
+@import './style/setting.css';
+@import './style/mail.css';
+@import './style/servicechat.css';
+@import './style/login.css';
+@import './style/unauthorized.css';
+
+/* ------------------ SUPPORT COMPONENTS ------------------ */
+@import '../assets/style/supportdashboard.css';

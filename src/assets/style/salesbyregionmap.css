@@ -1,0 +1,22 @@
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  transform: translate(-50%, -100%);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.leaflet-tooltip {
+  background-color: #ff6f61 !important;
+  color: white !important;
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}

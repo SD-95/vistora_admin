@@ -1,0 +1,26 @@
+.custom-pagination .page-link {
+  color: #ff6f61;
+  border: 1px solid #ff6f61;
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #ff6f61;
+  border-color: #ff6f61;
+  color: #fff;
+  font-weight: 600;
+}
+.custom-pagination .page-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(255, 111, 97, 0.4); /* soft orange shadow */
+  border-color: #ff6f61;
+}
+.text-primary-underline {
+  color: #ff6f61 !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.text-primary-underline:hover {
+  opacity: 0.8;
+}
